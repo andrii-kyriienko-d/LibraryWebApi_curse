@@ -1,0 +1,62 @@
+2021-12-20T13:03:55.7963879+02:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2021-12-20T13:03:55.8958576+02:00	INFO	[Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager]	[UsingProfileAsKeyRepositoryWithDPAPI]	User profile is available. Using 'C:\Users\Andrey\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20T13:03:55.9142961+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository]	[ReadingDataFromFile]	Reading data from file 'C:\Users\Andrey\AppData\Local\ASP.NET\DataProtection-Keys\key-63abd01a-4070-4981-b6e3-39a168163237.xml'.
+2021-12-20T13:03:55.9669417+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager]	[FoundKey]	Found key {63abd01a-4070-4981-b6e3-39a168163237}.
+2021-12-20T13:03:55.9943656+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver]	[ConsideringKeyWithExpirationDateAsDefaultKey]	Considering key {63abd01a-4070-4981-b6e3-39a168163237} with expiration date 2022-02-23 14:03:57Z as default key.
+2021-12-20T13:03:56.0632959+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.TypeForwardingActivator]	[0]	Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-12-20T13:03:56.0727824+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor]	[DecryptingSecretElementUsingWindowsDPAPI]	Decrypting secret element using Windows DPAPI.
+2021-12-20T13:03:56.0781389+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.TypeForwardingActivator]	[0]	Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-12-20T13:03:56.0884458+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory]	[OpeningCNGAlgorithmFromProviderWithChainingModeCBC]	Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2021-12-20T13:03:56.0939783+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory]	[OpeningCNGAlgorithmFromProviderWithHMAC]	Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2021-12-20T13:03:56.1011962+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider]	[UsingKeyAsDefaultKey]	Using key {63abd01a-4070-4981-b6e3-39a168163237} as the default key.
+2021-12-20T13:03:56.1063390+02:00	DBUG	[Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService]	[KeyRingWasLoadedOnStartup]	Key ring with default key {63abd01a-4070-4981-b6e3-39a168163237} was loaded during application startup.
+2021-12-20T13:03:56.7080441+02:00	DBUG	[Microsoft.AspNetCore.Hosting.Diagnostics]	[0]	Loaded hosting startup assembly LibraryWebApi
+2021-12-20T13:03:56.7141633+02:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2021-12-20T13:03:56.7283995+02:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2021-12-20T13:03:56.7450789+02:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: C:\Users\Andrey\source\repos\library_webapi
+2021-12-20T13:03:56.7494590+02:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2021-12-20T13:03:56.8289643+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/ - -
+2021-12-20T13:03:56.8342502+02:00	DBUG	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[WildcardDetected]	Wildcard detected, all requests with hosts will be allowed.
+2021-12-20T13:03:56.8374471+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:03:56.8917389+02:00	DBUG	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[PathMismatch]	The request path  does not match the path filter
+2021-12-20T13:03:56.9100580+02:00	DBUG	[Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler]	[ViewCompilerNoCompiledViewsFound]	Initializing Razor view compiler with no compiled views.
+2021-12-20T13:03:56.9729573+02:00	DBUG	[Microsoft.AspNetCore.Routing.Matching.DfaMatcher]	[CandidatesNotFound]	No candidates found for the request path '/'
+2021-12-20T13:03:56.9784831+02:00	DBUG	[Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware]	[MatchFailure]	Request did not match any endpoints
+2021-12-20T13:03:57.1193114+02:00	DBUG	[Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler]	[AuthenticationSchemeNotAuthenticated]	AuthenticationScheme: Bearer was not authenticated.
+2021-12-20T13:03:57.1549695+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/ - - - 404 - - 330.4842ms
+2021-12-20T13:03:57.2232729+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/favicon.ico - -
+2021-12-20T13:03:57.2292119+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:03:57.2343784+02:00	DBUG	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[PathMismatch]	The request path  does not match the path filter
+2021-12-20T13:03:57.2379323+02:00	DBUG	[Microsoft.AspNetCore.Routing.Matching.DfaMatcher]	[CandidatesNotFound]	No candidates found for the request path '/favicon.ico'
+2021-12-20T13:03:57.2426810+02:00	DBUG	[Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware]	[MatchFailure]	Request did not match any endpoints
+2021-12-20T13:03:57.2483470+02:00	DBUG	[Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler]	[AuthenticationSchemeNotAuthenticated]	AuthenticationScheme: Bearer was not authenticated.
+2021-12-20T13:03:57.2682162+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/favicon.ico - - - 404 - - 46.5608ms
+2021-12-20T13:04:06.2972581+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger - -
+2021-12-20T13:04:06.3003711+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.3108408+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger - - - 301 - - 10.9040ms
+2021-12-20T13:04:06.3289046+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/index.html - -
+2021-12-20T13:04:06.3319081+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.4446241+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/index.html - - - 200 - text/html;charset=utf-8 115.3900ms
+2021-12-20T13:04:06.5029270+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui.css - -
+2021-12-20T13:04:06.5104544+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.5126133+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui-bundle.js - -
+2021-12-20T13:04:06.5151117+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui-standalone-preset.js - -
+2021-12-20T13:04:06.5177576+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.5210457+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.5437144+02:00	TRCE	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[0]	Range header's value is empty.
+2021-12-20T13:04:06.5461346+02:00	TRCE	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[0]	Range header's value is empty.
+2021-12-20T13:04:06.5486259+02:00	TRCE	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[0]	Range header's value is empty.
+2021-12-20T13:04:06.5702575+02:00	INFO	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[FileServed]	Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-20T13:04:06.5743529+02:00	INFO	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[FileServed]	Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-20T13:04:06.5813687+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui.css - - - 200 142933 text/css 79.6377ms
+2021-12-20T13:04:06.5842619+02:00	INFO	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[FileServed]	Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-20T13:04:06.5927084+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 85.9612ms
+2021-12-20T13:04:06.6156503+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 109.8656ms
+2021-12-20T13:04:06.7917086+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/favicon-32x32.png - -
+2021-12-20T13:04:06.7942651+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:06.7971149+02:00	TRCE	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[0]	Range header's value is empty.
+2021-12-20T13:04:06.8004571+02:00	INFO	[Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware]	[FileServed]	Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-20T13:04:06.8027917+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/favicon-32x32.png - - - 200 628 image/png 11.4999ms
+2021-12-20T13:04:06.8824375+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestStarting]	Request starting HTTP/1.1 GET http://localhost:53011/swagger/v1/swagger.json - -
+2021-12-20T13:04:06.8857462+02:00	TRCE	[Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware]	[AllHostsAllowed]	All hosts are allowed.
+2021-12-20T13:04:07.1496663+02:00	INFO	[Microsoft.AspNetCore.Hosting.Diagnostics]	[RequestFinished]	Request finished HTTP/1.1 GET http://localhost:53011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.3591ms

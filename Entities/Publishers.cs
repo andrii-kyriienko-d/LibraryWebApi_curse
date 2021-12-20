@@ -1,0 +1,17 @@
+﻿using LibraryWebApi.Attributes;
+using LibraryWebApi.Entities.Interfaces;
+using System;
+
+namespace LibraryWebApi.Entities
+{
+    [DbTableName(TableName = "Publishers")]
+    public class Publishers : IEntityId, IEntityDateInfo
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int CompanyUCode { get; set; }
+        public string Location { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
+    }
+}
